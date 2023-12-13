@@ -42,6 +42,7 @@ int find_sequence(int request_queue[], int seek_sequence[], int initial_position
         is_visited[index] = 1;
         completed++;
         seek_sequence[seek_index++] = request_queue[index];
+        element = request_queue[index];
     }
 
     return seek_index;
