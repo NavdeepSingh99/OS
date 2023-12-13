@@ -147,16 +147,6 @@ int main(){
             }
         }
     }
-
-    // printf("ProcessAT\tBT\tCT\tTAT\tWT\n"); 
-    // for(int i=0; i<n; i++){ 
-    //     printf(" %d",p[i].pid); 
-    //     printf(" %d",p[i].at); 
-    //     printf(" %d",p[i].bt); 
-    //     printf(" %d",p[i].ct); 
-    //     printf(" %d",p[i].tat); 
-    //     printf(" %d\n",p[i].wt);
-    // }
     
 
     printf("   Process	AT	BT	CT	TAT	WT\n");
